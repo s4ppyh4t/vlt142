@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    background-image: url("../img/VT142.png");
+    background-size:contain;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+}
+
+#divider {
+    height:245.6vw;
+    width: auto;
+}
+
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+#spacer {
+    height: 171vw;
+    width: auto;
+    transition: transform 0.5s;
+}
+
+#button-time:hover {
+    transform: translate(36.5vw, -10px);
+}
+
+
+
+#button-time {
+    /* border: 1px solid red; */
+    transform: translate(36.5vw, 0);
+    width: 32vw;
+    height: auto; 
+    transition: transform 0.2s ease-in-out;
+}
